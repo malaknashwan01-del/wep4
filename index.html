@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Styled CV</title>
     <style>
@@ -13,7 +14,9 @@
         .cv-container {
             width: 80%;
             margin: 30px auto;
-            box-shadow: 0 5px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+
         }
 
         .cv-header {
@@ -27,7 +30,7 @@
             width: 150px;
             border-radius: 50%;
             border: 3px solid #4caf50;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
         }
 
         .skills li {
@@ -44,7 +47,8 @@
             border-collapse: collapse;
         }
 
-        th, td {
+        th,
+        td {
             border: 1px solid #4caf50;
             padding: 10px;
         }
@@ -67,75 +71,83 @@
         }
     </style>
 </head>
+
 <body>
 
-<div class="cv-container">
+    <div class="cv-container">
 
-    <div class="cv-header">
-        <img src="profile.jpg" class="profile-photo">
-        <h1>Your Name</h1>
-        <p>Web Developer | Student at Al-Aqsa University</p>
-        <p>Email: your.email@example.com | Phone: +970 123 456 789 | <a href="#">GitHub</a></p>
+        <div class="cv-header">
+            <img src="https://images.pexels.com/photos/37927742/pexels-photo-37927742.jpeg" class="profile-photo">
+            <h1>Malak Nashwan</h1>
+            <p>Web Developer | Student at Al-Aqsa University</p>
+            <p>Email: malaknashwan01@gmail.com | Phone: +970 594762916 | <a
+                    href="https://github.com/malaknashwan01-del">GitHub</a></p>
+        </div>
+
+        <h2>About Me</h2>
+        <p>A passionate web development student eager to learn and build modern websites. Currently studying at Al-Aqsa
+            University, focused on front-end technologies including HTML, CSS, and JavaScript.</p>
+
+        <h2>Skills</h2>
+        <ul class="skills">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Responsive Design</li>
+            <li>Problem Solving</li>
+            <li>Bootstrap</li>
+            <li>VS Code</li>
+        </ul>
+
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>BSc Information Technology</td>
+                <td>Al-Aqsa University</td>
+                <td>2023 - Present</td>
+                <td>In Progress</td>
+            </tr>
+            <tr>
+                <td>High School Diploma</td>
+                <td>2019 - 2023</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+
+                <td>Online Courses</td>
+                <td>freeCodeCamp / Coursera</td>
+                <td>2024</td>
+                <td>Completed</td>
+            </tr>
+
+        </table>
+
+        <h2>Projects</h2>
+        <ul>
+            <li>Personal Portfolio - A responsive portfolio website built with HTML & CSS</li>
+            <li>Calculator App - A simple calculator using JavaScript</li>
+            <li>Weather App - Fetches weather data from an API</li>
+        </ul>
+
+        <h2>Contact</h2>
+        <p>
+            <a href="#">Email Me</a> |
+            <a
+                href="https://www.linkedin.com/in/malak-nashwan-29596a343?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+
+            |
+            <a href="https://github.com/malaknashwan01-del">GitHub</a>
+        </p>
+
     </div>
 
-    <h2>About Me</h2>
-    <p>A passionate web development student eager to learn and build modern websites. Currently studying at Al-Aqsa University, focused on front-end technologies including HTML, CSS, and JavaScript.</p>
-
-    <h2>Skills</h2>
-    <ul class="skills">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>Git & GitHub</li>
-        <li>Responsive Design</li>
-        <li>Problem Solving</li>
-        <li>Bootstrap</li>
-        <li>VS Code</li>
-    </ul>
-
-    <h2>Education</h2>
-    <table>
-        <tr>
-            <th>Degree</th>
-            <th>Institution</th>
-            <th>Year</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>BSc Information Technology</td>
-            <td>Al-Aqsa University</td>
-            <td>2023 - Present</td>
-            <td>In Progress</td>
-        </tr>
-        <tr>
-            <td>High School Diploma</td>
-            <td>Secondary School</td>
-            <td>2019 - 2023</td>
-            <td>Completed</td>
-        </tr>
-        <tr>
-            <td>Online Courses</td>
-            <td>freeCodeCamp / Coursera</td>
-            <td>2024</td>
-            <td>Completed</td>
-        </tr>
-    </table>
-
-    <h2>Projects</h2>
-    <ul>
-        <li>Personal Portfolio - A responsive portfolio website built with HTML & CSS</li>
-        <li>Calculator App - A simple calculator using JavaScript</li>
-        <li>Weather App - Fetches weather data from an API</li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>
-        <a href="#">Email Me</a> |
-        <a href="#">LinkedIn</a> |
-        <a href="#">GitHub</a>
-    </p>
-
-</div>
-
 </body>
+
 </html>
